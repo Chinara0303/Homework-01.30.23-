@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 28%;
+    margin: 30px auto;
+    background-color: rgb(214, 217, 219);
+    border-radius: 20px ;
+    text-align: center;
+    padding: 70px 30px 30px 30px;
+}
+.card .icon{
+    background-color: #d14a18;
+    width: 38%;
+    margin: auto;
+    color: white;
+    font-size: 35px;
+    padding: 30px 0 30px 0;
+    margin-bottom: 30px;
+    border-radius: 0 30px 0 30px;
+}
+.card .title{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.card .content{
+    color:#8D8D8B;
+    font-size: 18px;
+}
