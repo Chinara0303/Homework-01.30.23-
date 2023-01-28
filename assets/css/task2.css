@@ -1,0 +1,59 @@
+@import url("../css/reset.css");
+body{
+    background-color: rgb(242, 244, 247);
+}
+@font-face {
+    font-family: WeddingFont;
+    src: url("../fonts/GreatVibes-Regular.ttf");
+}
+@font-face {
+    font-family: PFont;
+    src: url("../fonts/Explora-Regular.ttf");
+}
+.container{
+    width: 40%;
+    margin: 15px auto 30px auto;
+}
+.container .card{
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+.container .card p{
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.container .card .card-text p:first-child{
+    letter-spacing: 3.2px;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.container .card .card-text p:nth-child(2){
+    font-size: 11px;
+    color: #8f8f8f;
+}
+.container .card .card-text p:nth-child(3),p:nth-child(4){
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.container .card .card-text p:nth-child(5){
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.container .card .card-text p:nth-child(6){
+    font-size: 20px;
+    color: #383838;
+    text-transform: none;
+    font-family: PFont;
+    letter-spacing: 1.4px;
+}
+.container .card .title{
+    text-align: center;
+    font-family: WeddingFont;
+    font-size: 45px;
+}
+.title h1{
+    font-weight: 100;
+
+}
