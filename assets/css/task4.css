@@ -8,7 +8,7 @@ a,i{
 }
 .container {
     width: 70%;
-    margin: 20px auto;
+    margin: 20px auto 30px auto;
 }
 /* start header */
 .container .header {
@@ -102,3 +102,57 @@ a,i{
     background-color: #2096D9;
     color: white;
 }
+/* end intro */
+/* start cards */
+.container .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .cards .box{
+    background-color: white;
+    margin-left: 20px;
+    padding: 30px;
+}
+.container .cards .box i{
+    background-color: #FFDCD1;
+    color: rgb(235, 53, 83);
+    padding: 18px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.container .cards .box:nth-child(2) i{
+    background-color: rgb(173, 214, 173);
+    color: green;
+}
+.container .cards .box:nth-child(3){
+    background-color: #2096D9;
+}
+.container .cards .box:nth-child(3) p{
+    color: white ;
+}
+.container .cards .box:nth-child(3) span{
+    color: white ;
+}
+.container .cards .box:nth-child(3) .line{
+    background-color: white ;
+}
+.container .cards .box:nth-child(3) i{
+    background-color: white;
+    color: #2096D9;
+}
+.container .cards .box p{
+    margin-top: 15px ;
+    color: #020b2c;
+    font-weight: 600;
+}
+.container .cards .box .line{
+    background-color: rgb(235, 53, 83);
+    height: 1px;
+    width: 25%;
+    margin: 15px 0;
+}
+.container .cards .box span{
+    color: #787575;
+}
+/* end cards */
