@@ -1,0 +1,104 @@
+@import url("../css/reset.css");
+
+body {
+    background-color: #252B42;
+}
+a,i{
+    color: white;
+}
+.container {
+    width: 70%;
+    margin: 20px auto;
+}
+/* start header */
+.container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .header .header-left .logo {
+    color: white;
+}
+.container .header .header-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .header .header-left .navbar ul{
+    margin: 0 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .header .header-right{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.container .header .header-right .joinbtn{
+    margin-left: 50px;
+    background-color: #2096D9;
+    width: 112px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.container .header .header-right .joinbtn i{
+    margin-left: 8px;
+}
+/* end header */
+
+/* start intro */
+.container .intro{
+   width: 50%;
+   margin: 140px auto 70px ;
+   text-align: center;
+   color: white;
+}
+.container .intro p:first-child{
+    font-size: 12px;
+    color: #2096D9;
+    margin: 30px;
+}
+.container .intro h1{
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.container .intro .text{
+    margin: 30px 20px;
+    font-size: 19px;
+    font-weight: 300;
+}
+.container .intro .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .intro .btns div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2096D9;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-size: 13px;
+    height: 38px;
+}
+.container .intro .btns .btn2{
+    width: 110px;
+    margin-left: 5px;
+    border-color: #2096D9;
+    color: #2096D9;
+}
+.container .intro .btns .btn1{
+    width: 150px;
+    background-color: #2096D9;
+    color: white;
+}
